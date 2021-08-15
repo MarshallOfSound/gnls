@@ -10,3 +10,17 @@ index 922bf46f..a746cc61 100755
          '-Wall',
          '-Wextra',
          '-Wno-unused-parameter',
+diff --git a/src/gn/version.h b/src/gn/version.h
+index 7fcf81d1..a078a86a 100644
+--- a/src/gn/version.h
++++ b/src/gn/version.h
+@@ -8,6 +8,9 @@
+ #include <optional>
+ #include <string>
+
++#undef major
++#undef minor
++
+ // Represents a semantic version.
+ class Version {
+  public:
