@@ -34,11 +34,11 @@ jobs:
           case "$RUNNER_OS" in
             Linux)
               sudo apt update
-              sudo apt install -y ninja-build clang-tidy-11 clang-format-11
+              sudo apt install -y ninja-build
               sudo ln -sfnv "$(which clang-11)" /usr/local/bin/clang
               sudo ln -sfnv "$(which clang++-11)" /usr/local/bin/clang++
-              sudo ln -sfnv "$(which clang-tidy-11)" /usr/local/bin/clang-tidy
-              sudo ln -sfnv "$(which clang-format-11)" /usr/local/bin/clang-format
+              # sudo ln -sfnv "$(which clang-tidy-11)" /usr/local/bin/clang-tidy
+              # sudo ln -sfnv "$(which clang-format-11)" /usr/local/bin/clang-format
               ;;
             macOS)
               brew install ninja llvm

@@ -138,12 +138,12 @@ function build(target: string) {
       exec(npx('jest'))
       exec(npx('eslint'), '.')
       exec(npx('prettier'), '--check', '.')
-      exec('clang-tidy', ...list('addon', /\.cc$/))
-      exec('clang-format', '--dry-run', '-Werror', ...list('addon', /\.cc$/))
+      // exec('clang-tidy', ...list('addon', /\.cc$/))
+      // exec('clang-format', '--dry-run', '-Werror', ...list('addon', /\.cc$/))
       break
     case 'format':
       exec(npx('prettier'), '--write', '.')
-      exec('clang-format', '-i', ...list('addon', /\.cc$/))
+      // exec('clang-format', '-i', ...list('addon', /\.cc$/))
       break
     case 'package':
       chdir('.')
