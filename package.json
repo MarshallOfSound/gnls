@@ -1,6 +1,6 @@
 {
   "name": "gnls-electron",
-  "publisher": "marshallofsound",
+  "publisher": "MarshallOfSound",
   "version": "0.1.0",
   "displayName": "GN Language Server (Electron)",
   "description": "Code IntelliSense for GN build system.",
