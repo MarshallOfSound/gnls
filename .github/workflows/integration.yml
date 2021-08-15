@@ -35,8 +35,8 @@ jobs:
             Linux)
               sudo apt update
               sudo apt install -y ninja-build
-              sudo ln -sfnv "$(which clang-11)" /usr/local/bin/clang
-              sudo ln -sfnv "$(which clang++-11)" /usr/local/bin/clang++
+              # sudo ln -sfnv "$(which clang-11)" /usr/local/bin/clang
+              # sudo ln -sfnv "$(which clang++-11)" /usr/local/bin/clang++
               # sudo ln -sfnv "$(which clang-tidy-11)" /usr/local/bin/clang-tidy
               # sudo ln -sfnv "$(which clang-format-11)" /usr/local/bin/clang-format
               ;;
