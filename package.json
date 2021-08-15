@@ -1,8 +1,8 @@
 {
-  "name": "gnls",
-  "publisher": "msedge-dev",
+  "name": "gnls-electron",
+  "publisher": "marshallofsound",
   "version": "0.1.0",
-  "displayName": "GN Language Server",
+  "displayName": "GN Language Server (Electron)",
   "description": "Code IntelliSense for GN build system.",
   "license": "SEE LICENSE IN LICENSE",
   "categories": [
@@ -12,13 +12,13 @@
     "gn",
     "chromium"
   ],
-  "homepage": "https://github.com/microsoft/gnls",
+  "homepage": "https://github.com/marshallofsound/gnls",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/gnls.git"
+    "url": "https://github.com/marshallofsound/gnls.git"
   },
   "bugs": {
-    "url": "https://github.com/microsoft/gnls/issues"
+    "url": "https://github.com/marshallofsound/gnls/issues"
   },
   "main": "./build",
   "engines": {
